@@ -1,0 +1,16 @@
+--> if you are on Mac or linux you will already have git installed on your machine. so go ahead and open up the terminal.
+
+In your terminal type:
+
+~$ git --version
+
+--> if you don't have git installed on your machine. Checkout Atlassian Git tutorial to install on your machine. 
+
+--> another higly recommended thing we will do is to use the vscode editor. Of course! you can use any kind of editor you like...
+
+--> go to vscode official website and download vscode acording to your machine.
+
+--> Once you have git installed and an IDE (text editor ;) ) we can start working locally.
+
+
+
