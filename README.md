@@ -12,3 +12,16 @@
 
 6- Now we will update this file by simply adding some text in the same file. Once you have made changes to the file notice the new commit message!
 
+7- Let's check the history of our changes. Notice that each change has a new identifier. 
+
+8- Click on the commits and you will notice the plus '+' signs where you made changes. 
+
+9- Now delete some line and save the changes by clicking on commit changes. 
+
+10- Again, check the history and you'll see the deleted lines with '-' signs and red color. 
+
+11- Now, let's work with our local machines...
+
+
+
+
