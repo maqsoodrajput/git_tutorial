@@ -1,6 +1,6 @@
 --> if you are on Mac or linux you will already have git installed on your machine. so go ahead and open up the terminal.
 
-In your terminal type:
+In your terminal (~$) type:
 
 ~$ git --version
 
@@ -11,6 +11,10 @@ In your terminal type:
 --> go to vscode official website and download vscode acording to your machine.
 
 --> Once you have git installed and an IDE (text editor ;) ) we can start working locally.
+
+# On your local computer:
+
+
 
 
 
