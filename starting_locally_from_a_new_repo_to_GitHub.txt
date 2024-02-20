@@ -1,0 +1,49 @@
+We make a new folder outside the previous folder. 
+here we create a new file and write some text in it. 
+
+Right now this is not a git repo or connected to your git or GitHub account. To check if it connected you can simple type 'ls -la' in your terminal and see if there is any .git folder yet. If not then follow the rest. 
+
+- Open up the terminal in this new folder and type:
+
+~$ git init -b main
+
+- Now do
+
+~$ git status
+
+- Notice an untracted file here.
+
+- Go ahead and add the file
+
+~$ git add .
+
+~$ git commit -m "created a new file" -m "some description here about your commit"
+
+- Try 'git push origin master'. What happened? 
+
+- Because this not yet connected to a remote repo you get this error message. In other words you don't have 'origin'.
+
+- To make a remote repo or origin let's go to GitHub and create a new repo. 
+
+- Once you have created a remote repo, you have to connect it with your local new repo so that you can push. Now do the following in the terminal in this new folder:
+
+~$ git remote add origin REMOTE-URL
+
+- To verify what you just did do:
+
+~$ git remote -v
+
+- Now we have a connection between the local and remote or origin. So let's do:
+
+~$ git push origin main
+
+- Now, it is IMPROTRANT for your future commist to push to a right branch and not create errors. Therefore, we will do the following:
+
+~$ git push --set-upstream origin <branch>
+
+- Once you have set the upstream you can then just simply do:
+
+~$ git push
+
+--> for futher reading look up GitHub's official page:
+https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github
