@@ -15,6 +15,25 @@ In your terminal (~$) type:
 # On your local computer:
 
 
+~$ ls -la 
 
+This will list all the files and directories inside this folder. 
+Notice a blue color .git folder. This keeps track of your changes locally or on your remote repo.
+
+Now, let's make some changes to some already existing file(s). Once you are done, do 
+
+~$ git status 
+
+This will show all the files created or updated but haven't been saved in a commit yet. Now "commit" here means that git have not updated these changes. It is indeed keeping track that your have made some change(s).
+
+In order to commit we do:
+
+~$ git add . 
+
+Later you can do git add with each single file that has been changed.
+
+Let's do our first commit now! 
+
+~$ git commit -m "my first commit!"
 
 
