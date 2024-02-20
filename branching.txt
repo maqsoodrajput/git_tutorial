@@ -1,4 +1,4 @@
---> Git Branching and merging
+--> Branching and Merging:
 
 - When you create a new repo you are on the master/main branch.  
 
@@ -23,5 +23,18 @@
 
 - git stash and pop is for later...
 
-- Let's focus on merge and then merge conflicts.
+- Let's focus on merge and then merge conflicts. Beforre we merge, let's checkout the differences between the main and the new branch:
 
+~$ git diff <name-of-new-branch>
+
+- Let's checkout to the main and then we type:
+
+~$ git merge <name-of-new-branch>
+
+- If there are no conflicts then it will merge and you can push to the origin main branch. If not then you have to resolve the conflicts first.
+
+- Let's create some changes in the new branch anf repeat the process and resolve the conflicts manually!
+
+- Once you have resloved the conflicits you can then merge and push to the origin. 
+
+- In the vscode you have a nice interface to resolve the conflicits...
