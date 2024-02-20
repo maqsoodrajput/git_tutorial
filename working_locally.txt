@@ -40,7 +40,7 @@ Let's do our first commit now!
 
 Now, let's update our github/remote repo. Do
 
-~$ git push origin master
+~$ git push origin main
 
 Now, let's check our reporistory online on github. Do you see any changes there? 
 
