@@ -12,6 +12,8 @@ In your terminal (~$) type:
 
 --> Once you have git installed and an IDE (text editor ;) ) we can start working locally.
 
+--> Follow instructions in the file How_to_add_SSH_keys.txt
+
 # On your local computer:
 
 
@@ -35,5 +37,16 @@ Later you can do git add with each single file that has been changed.
 Let's do our first commit now! 
 
 ~$ git commit -m "my first commit!"
+
+Now, let's update our github/remote repo. Do
+
+~$ git push origin master
+
+Now, let's check our reporistory online on github. Do you see any changes there? 
+
+
+
+
+
 
 
