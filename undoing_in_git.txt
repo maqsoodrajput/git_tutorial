@@ -1,0 +1,16 @@
+- Let's say that we have stagged something accidentlly by doing 'git add .' or git add <file_name>
+- We can unstag this by doing git either 'git reset ' or 'git reset <file_name>'
+
+- Let's say that we want to undo the last git commit. We will do the following:
+~$ git reset HEAD~1 
+
+- If you want to return a certain commit, then you have to type 'git log'. You will see the commits in the reverse chronological order with there unique hash. Now type:
+
+~$ git reset <hash-of-commit>
+
+- If you want to not just do unstag but also want to remove all the changes, you can do:
+
+~$ git reset --hard <hash-of-commit>
+
+
+
