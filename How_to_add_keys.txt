@@ -1,0 +1,47 @@
+--> In order to clone over SSH (which is recommended) you need to add an ssh key. Following are the steps:
+--> Before we start, repeat after me: DONOT SHARE YOUR PRIVATE KEY WITH ANYONE!!!!
+
+- Pre ssh step do these in your terminal:
+~$ vim ~/.gitconfig
+if this is empty then you have to add a user name and email which you can use to push to your remote repo.
+~$ git config --global user.name "Your name"
+~$ git config --global user.email  your_email@example.com
+
+# you can also hide your email ID. To do that, I would highly recommend follow this tutorial:
+https://www.youtube.com/watch?v=O3e19cwX6uY
+
+once you have done that go to github offical documentationpage and follow the following steps 
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
+
+1- copy:
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+2- This generate SSH key. And asks you an address where you want to save the key. Let's stick to the default and press Enter
+Enter file in which to save the key (/home/username/.ssh/id_ed25519): 
+
+3- It asks you to setup a passphrase. I highly recommend to setup a strong passphrase using some passowards generator...
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+
+4- It will prompt the following message:
+Your identification has been saved in /home/username/.ssh/id_ed25519
+Your public key has been saved in /home/username/.ssh/id_ed25519.pub
+
+5- To check the address of your SSH keys, do this in your terminal:
+~$ ls ~/.ssh
+
+6- DONOT SHARE YOUR PRIVATE KEY!
+
+7- We need now our PUBLIC key to setup SSH with your github/remote repo. Let's print our public key in our terminal by doing,
+~$ cat ~/.ssh/id_ed25519.pub
+
+8- Copy this PUBLIC key starting from "ssh-ed25519 ...." and go to:
+https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
+
+9- Click on settings and further select "SSH and GPG keys".
+
+10- Add your PUBLIC key and and give it a name such as "Primary". Hit save and you are good to go!
+
+--> now you can clone via SSH
+ 
+
