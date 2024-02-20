@@ -1,3 +1,5 @@
+LET's GET Started
+
 --> if you are on Mac or linux you will already have git installed on your machine. so go ahead and open up the terminal.
 
 In your terminal (~$) type:
