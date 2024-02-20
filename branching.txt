@@ -1,8 +1,7 @@
 --> Branching and Merging:
 
-- When you create a new repo you are on the master/main branch.  
+- When you create a new repo you are on the master/main branch. In order to check your branch info type
 
-- In order to check your branch info type
 ~$ git branch 
 
 - We will now create a new branch so that we can work on it separately and then merge it into the main/master branch. To create a new branch type:
