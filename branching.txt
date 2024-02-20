@@ -1,3 +1,14 @@
---> Git Branching
+--> Git Branching and merging
 
 - When you create a new repo you are on the master/main branch.  
+
+- In order to check your branch info type
+~$ git branch 
+
+- We will now create a new branch so that we can work on it separately and then merge it into the main/master branch. To create a new branch type:
+
+~$ git checkout -b <name-of-new-branch>
+
+- It will take you automatically to the new branch. Type 'git branch' and it will show you your current branch.
+
+- 
