@@ -37,3 +37,8 @@
 - Once you have resloved the conflicits you can then merge and push to the origin. 
 
 - In the vscode you have a nice interface to resolve the conflicits...
+
+- Once your work on a branch is done and it is merged, you can simplt delete the branch by simply doing:
+
+~$ git branch -d <branch-that-merged>
+
