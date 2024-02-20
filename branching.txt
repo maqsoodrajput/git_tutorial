@@ -11,4 +11,17 @@
 
 - It will take you automatically to the new branch. Type 'git branch' and it will show you your current branch.
 
-- 
+- Now, add some text into your file and repeat the procedure of git add and commit.
+
+- Try 'git push'. What happens?
+
+- Your branch does not have an origin or address on the remote repo right now. Luckily, Git will tell you to setup an upstream which means to set an origin. For example:
+
+~$ git push --set-upstream origin <new-branch-name>
+
+- After that you can keep pushing to your branch or you can checkout to your main/master branch. If you don't commit your changes there will error about 'git stash'.
+
+- git stash and pop is for later...
+
+- Let's focus on merge and then merge conflicts.
+
