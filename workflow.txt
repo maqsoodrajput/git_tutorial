@@ -1,0 +1,14 @@
+Github Workflow: 
+
+Step 1: Create a new file
+Step 2: Commit changes
+Step 3: Make a "Pull request"
+
+Local Git Workflow:
+
+Step 1: Create a new file
+Step 2: Stage Changes  (git add)
+Step 3: Commit Changes (git commit)
+Step 4: Push Changes   (git push) <-- this will push changes to Github
+Step 5: If we don't have access or if we are working on a branch we will make a pull request
+
