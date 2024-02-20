@@ -35,12 +35,16 @@ Your public key has been saved in /home/username/.ssh/id_ed25519.pub
 7- We need now our PUBLIC key to setup SSH with your github/remote repo. Let's print our public key in our terminal by doing,
 ~$ cat ~/.ssh/id_ed25519.pub
 
-8- Copy this PUBLIC key starting from "ssh-ed25519 ...." and go to:
+8- Add your SSH key to SSH-agent by doing:
+~$ ssh-add
+It will aask you for your passphrase, go ahead and type your passphrase.
+
+9- Copy this PUBLIC key starting from "ssh-ed25519 ...." and go to:
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
-9- Click on settings and further select "SSH and GPG keys".
+10- Click on settings and further select "SSH and GPG keys".
 
-10- Add your PUBLIC key and and give it a name such as "Primary". Hit save and you are good to go!
+11- Add your PUBLIC key and and give it a name such as "Primary". Hit save and you are good to go!
 
 --> now you can clone via SSH
  
