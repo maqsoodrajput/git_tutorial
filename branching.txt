@@ -38,4 +38,7 @@
 
 - In the vscode you have a nice interface to resolve the conflicits...
 
-- Usually, after a branch is merged you delete the merged branch
+- Usually, after a branch is merged you delete the merged branch. This can be simply done as following:
+
+~$ git branch -d <branch-that-merged>
+
