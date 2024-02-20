@@ -37,3 +37,5 @@
 - Once you have resloved the conflicits you can then merge and push to the origin. 
 
 - In the vscode you have a nice interface to resolve the conflicits...
+
+- Usually, after a branch is merged you delete the merged branch
