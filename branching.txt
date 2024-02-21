@@ -42,3 +42,5 @@
 
 ~$ git branch -d <branch-that-merged>
 
+-Another important topic to look into is git rebase and squash. For that a look at the git offical documentation. But you can also watch this tutorial:
+https://www.youtube.com/watch?v=CRlGDDprdOQ
